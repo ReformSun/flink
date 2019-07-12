@@ -28,11 +28,11 @@ public class DataGenerator {
 //        testMethod2();
 //		testMethod1(time);
 //		testMethod1_1(time);
-//		testMethod1_2(time);
+		testMethod1_2(time);
 //        testMethod3(1537390812000L + 6000L);
 //        testMethod4(1537378980000L);
 //        testMethod5(time);
-		testMethod6(time);
+//		testMethod6(time);
 //		testMethod8(time);
 	}
 

@@ -21,7 +21,6 @@ public class ProduceTuple3 implements ProduceData<Tuple3<String,Integer,Long>>{
 
 	@Override
 	public TypeInformation<Tuple3<String, Integer, Long>> getProducedType() {
-
 		return new TupleTypeInfo(Types.STRING,Types.INT,Types.LONG);
 	}
 }

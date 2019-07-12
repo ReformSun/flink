@@ -7,10 +7,11 @@ import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.util.Collector;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class SocketWindowWordCount {
-    private static Logger logger = Logger.getLogger(SocketWindowWordCount.class);
+    private static Logger logger = LoggerFactory.getLogger(SocketWindowWordCount.class);
     public static void main(String[] args)
             throws Exception
     {

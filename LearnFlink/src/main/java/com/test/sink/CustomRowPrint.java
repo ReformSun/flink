@@ -1,5 +1,6 @@
 package com.test.sink;
 
+import com.test.util.TimeUtil;
 import com.test.util.URLUtil;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.metrics.Counter;
@@ -19,8 +20,13 @@ import java.sql.Timestamp;
 public class CustomRowPrint extends RichSinkFunction<Row> {
 	private String fileName;
 	private Counter sum = null;
+	private int time_index = Integer.MAX_VALUE;
 	public CustomRowPrint(String fileName) {
 		this.fileName = fileName;
+	}
+
+	public CustomRowPrint(String fileName,int time_index) {
+		this.time_index = time_index;
 	}
 
 	@Override
@@ -32,8 +38,12 @@ public class CustomRowPrint extends RichSinkFunction<Row> {
 
 	@Override
 	public void invoke(Row value) throws Exception {
-//		Timestamp timestamp = (Timestamp) value.getField(1);
-		writerFile(value.toString(),fileName);
+		String date = null;
+		if (time_index != Integer.MAX_VALUE && time_index < value.getArity()){
+			Timestamp timestamp = (Timestamp)value.getField(time_index);
+			date = TimeUtil.toDate(timestamp.getTime());
+		}
+		writerFile(date +":"+ value.toString(),fileName);
 	}
 	public static synchronized void writerFile(String s,String fileName) throws IOException {
 		if (fileName == null){

@@ -19,62 +19,35 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class CustomTableSource implements
-	StreamTableSource<Row>,
-	DefinedProctimeAttribute,
-	DefinedRowtimeAttributes,
-	DefinedFieldMapping {
-	private TableSchema schema;
+public class CustomTableSource<T> implements
+	StreamTableSource<T>{
+	private TypeInformation<T> tTypeInformation;
 	private String rowTime;
 	private long interval = 0;
 	private WatermarkStrategy watermarkStrategy;
+	private ProduceData produceData;
 
-	private CustomTableSource(TableSchema schema,String rowTime,long interval,WatermarkStrategy watermarkStrategy) {
-		this.schema = schema;
+	private CustomTableSource(TypeInformation<T> tTypeInformation, String rowTime, long interval, WatermarkStrategy watermarkStrategy, ProduceData produceData) {
+		this.tTypeInformation = tTypeInformation;
 		this.rowTime = rowTime;
 		this.interval = interval;
 		this.watermarkStrategy = watermarkStrategy;
-	}
-
-	@Nullable
-	@Override
-	public Map<String, String> getFieldMapping() {
-		return null;
-	}
-
-	@Nullable
-	@Override
-	public String getProctimeAttribute() {
-		return null;
+		this.produceData = produceData;
 	}
 
 	@Override
-	public List<RowtimeAttributeDescriptor> getRowtimeAttributeDescriptors() {
-		RowtimeAttributeDescriptor rowtimeAttributeDescriptor = null;
-		List<RowtimeAttributeDescriptor> list = new ArrayList<RowtimeAttributeDescriptor>();
-		if (watermarkStrategy == null){
-			rowtimeAttributeDescriptor = new RowtimeAttributeDescriptor(rowTime, new ExistingField(rowTime),new BoundedOutOfOrderTimestamps(0L));
-		}else {
-			rowtimeAttributeDescriptor = new RowtimeAttributeDescriptor(rowTime, new ExistingField(rowTime),watermarkStrategy);
-		}
-		list.add(rowtimeAttributeDescriptor);
-		return list;
-
+	public DataStream<T> getDataStream(StreamExecutionEnvironment execEnv) {
+		return execEnv.addSource(new CustomSource<T>(interval,produceData));
 	}
 
 	@Override
-	public DataStream<Row> getDataStream(StreamExecutionEnvironment execEnv) {
-		return execEnv.addSource(new CustomSource<Row>(interval,new ProduceRow(schema.toRowType())));
-	}
-
-	@Override
-	public TypeInformation<Row> getReturnType() {
-		return schema.toRowType();
+	public TypeInformation<T> getReturnType() {
+		return tTypeInformation;
 	}
 
 	@Override
 	public TableSchema getTableSchema() {
-		return schema;
+		return null;
 	}
 
 	@Override
@@ -87,14 +60,20 @@ public class CustomTableSource implements
 		return new CustomTableSource.Builder();
 	}
 
-	public static class Builder{
-		private TableSchema schema;
+	public static class Builder<T>{
+		private TypeInformation<T> tTypeInformation;
 		private String rowTime;
 		private long interval = 0;
 		private WatermarkStrategy watermarkStrategy;
+		private ProduceData produceData;
 
-		public CustomTableSource.Builder setSchema(TableSchema schema) {
-			this.schema = schema;
+		public CustomTableSource.Builder setProduceData(ProduceData<?> produceData) {
+			this.produceData = produceData;
+			return this;
+		}
+
+		public CustomTableSource.Builder setTypeInformation(TypeInformation<T> typeInformation) {
+			this.tTypeInformation = typeInformation;
 			return this;
 		}
 
@@ -118,7 +97,7 @@ public class CustomTableSource implements
 		}
 
 		public CustomTableSource build(){
-			return new CustomTableSource(schema,rowTime,interval,watermarkStrategy);
+			return new CustomTableSource(tTypeInformation,rowTime,interval,watermarkStrategy,produceData);
 		}
 
 

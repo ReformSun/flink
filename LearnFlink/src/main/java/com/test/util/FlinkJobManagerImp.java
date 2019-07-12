@@ -5,7 +5,8 @@ import com.alibaba.fastjson.JSONObject;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import okhttp3.*;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,7 +24,7 @@ import java.util.regex.Pattern;
 
 public class FlinkJobManagerImp implements FlinkJobManager {
     private static Pattern pattern = Pattern.compile("[\\w-]+\\.jar{1}");
-    private static Logger logger = Logger.getLogger(FlinkJobManagerImp.class);
+    private static Logger logger = LoggerFactory.getLogger(FlinkJobManagerImp.class);
     //    private final String baseUrl = "http://172.24.157.3:8081";
 //    private final String baseUrl = "http://10.4.247.17:8081";
 //    private final String baseUrl = "http://172.31.35.58:8081";
