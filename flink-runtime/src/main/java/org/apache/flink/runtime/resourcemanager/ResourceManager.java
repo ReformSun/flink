@@ -281,7 +281,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 			final String jobManagerAddress,
 			final JobID jobId,
 			final Time timeout) {
-
+		System.out.println("注册jobmanager到资源管理器");
 		checkNotNull(jobMasterId);
 		checkNotNull(jobManagerResourceId);
 		checkNotNull(jobManagerAddress);
@@ -367,7 +367,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 			final int dataPort,
 			final HardwareDescription hardwareDescription,
 			final Time timeout) {
-
+		System.out.println("注册taskmanager到资源管理器");
 		CompletableFuture<TaskExecutorGateway> taskExecutorGatewayFuture = getRpcService().connect(taskExecutorAddress, TaskExecutorGateway.class);
 		taskExecutorGatewayFutures.put(taskExecutorResourceId, taskExecutorGatewayFuture);
 
@@ -396,7 +396,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 	@Override
 	public CompletableFuture<Acknowledge> sendSlotReport(ResourceID taskManagerResourceId, InstanceID taskManagerRegistrationId, SlotReport slotReport, Time timeout) {
 		final WorkerRegistration<WorkerType> workerTypeWorkerRegistration = taskExecutors.get(taskManagerResourceId);
-
+		System.out.println("发送槽的报告");
 		if (workerTypeWorkerRegistration.getInstanceID().equals(taskManagerRegistrationId)) {
 			slotManager.registerTaskManager(workerTypeWorkerRegistration, slotReport);
 			return CompletableFuture.completedFuture(Acknowledge.get());
@@ -407,21 +407,25 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 
 	@Override
 	public void heartbeatFromTaskManager(final ResourceID resourceID, final SlotReport slotReport) {
+		System.out.println("从taskmanager获取心跳");
 		taskManagerHeartbeatManager.receiveHeartbeat(resourceID, slotReport);
 	}
 
 	@Override
 	public void heartbeatFromJobManager(final ResourceID resourceID) {
+		System.out.println("从jobmanager获取心跳");
 		jobManagerHeartbeatManager.receiveHeartbeat(resourceID, null);
 	}
 
 	@Override
 	public void disconnectTaskManager(final ResourceID resourceId, final Exception cause) {
+		System.out.println("从taskmanager断开连接");
 		closeTaskManagerConnection(resourceId, cause);
 	}
 
 	@Override
 	public void disconnectJobManager(final JobID jobId, final Exception cause) {
+		System.out.println("从jobmanager断开连接");
 		closeJobManagerConnection(jobId, cause);
 	}
 
@@ -430,7 +434,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 			JobMasterId jobMasterId,
 			SlotRequest slotRequest,
 			final Time timeout) {
-
+		System.out.println("请求槽信息");
 		JobID jobId = slotRequest.getJobId();
 		JobManagerRegistration jobManagerRegistration = jobManagerRegistrations.get(jobId);
 
@@ -460,6 +464,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 
 	@Override
 	public void cancelSlotRequest(AllocationID allocationID) {
+		System.out.println("关闭槽请求");
 		// As the slot allocations are async, it can not avoid all redundant slots, but should best effort.
 		slotManager.unregisterSlotRequest(allocationID);
 	}
@@ -469,7 +474,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 			final InstanceID instanceID,
 			final SlotID slotId,
 			final AllocationID allocationId) {
-
+		System.out.println("通知有用的槽");
 		final ResourceID resourceId = slotId.getResourceID();
 		WorkerRegistration<WorkerType> registration = taskExecutors.get(resourceId);
 
@@ -553,7 +558,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 
 	@Override
 	public CompletableFuture<Collection<TaskManagerInfo>> requestTaskManagerInfo(Time timeout) {
-
+		System.out.println("请求全部taskmanager详情");
 		final ArrayList<TaskManagerInfo> taskManagerInfos = new ArrayList<>(taskExecutors.size());
 
 		for (Map.Entry<ResourceID, WorkerRegistration<WorkerType>> taskExecutorEntry : taskExecutors.entrySet()) {
@@ -576,7 +581,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 
 	@Override
 	public CompletableFuture<TaskManagerInfo> requestTaskManagerInfo(ResourceID resourceId, Time timeout) {
-
+		System.out.println("请求指定id的taskmanager详情");
 		final WorkerRegistration<WorkerType> taskExecutor = taskExecutors.get(resourceId);
 
 		if (taskExecutor == null) {
@@ -598,6 +603,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 
 	@Override
 	public CompletableFuture<ResourceOverview> requestResourceOverview(Time timeout) {
+		System.out.println("请求资源详情");
 		final int numberSlots = slotManager.getNumberRegisteredSlots();
 		final int numberFreeSlots = slotManager.getNumberFreeSlots();
 
@@ -950,7 +956,7 @@ public abstract class ResourceManager<WorkerType extends ResourceIDRetrievable>
 	public void grantLeadership(final UUID newLeaderSessionID) {
 		final CompletableFuture<Boolean> acceptLeadershipFuture = clearStateFuture
 			.thenComposeAsync((ignored) -> tryAcceptLeadership(newLeaderSessionID), getUnfencedMainThreadExecutor());
-
+		System.out.println("参与选举");
 		final CompletableFuture<Void> confirmationFuture = acceptLeadershipFuture.thenAcceptAsync(
 			(acceptLeadership) -> {
 				if (acceptLeadership) {

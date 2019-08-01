@@ -55,6 +55,8 @@ taskmanager.numberOfTaskSlots: 1
 
 parallelism.default: 1
 
+#resourcemanager.rpc.port:
+
 # The default file system scheme and authority.
 # 
 # By default file paths without scheme are interpreted relative to the local
@@ -247,7 +249,7 @@ rest.port: 8081
 #=======================================================================
 # Metric
 #========================================================================
-#metrics.reporter.<name>.class: com.test.learnMetric.metricreporter.FileMetricReporter
+metrics.reporter.<name>.class: com.test.learnMetric.metricreporter.FileMetricReporter
 ## 书写方式 时间+空格+单位 默认单位秒 时间10
 #metrics.reporter.<name>.interval: 1 SECONDS
 #metrics.scope.jm: <host>.jobmanager

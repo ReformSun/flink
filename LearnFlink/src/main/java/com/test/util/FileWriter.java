@@ -19,7 +19,7 @@ public class FileWriter {
             e.printStackTrace();
         }
     }
-    public static void writerFile(String s,String fileName) throws IOException {
+    public static synchronized void writerFile(String s,String fileName) throws IOException {
         Path logFile = Paths.get(URLUtil.baseUrl + fileName);
         try (BufferedWriter writer = Files.newBufferedWriter(logFile, StandardCharsets.UTF_8, StandardOpenOption.APPEND)){
             writer.newLine();
@@ -33,6 +33,5 @@ public class FileWriter {
 			writer.newLine();
 			writer.write(tuple3.toString());
 		}
-
 	}
 }

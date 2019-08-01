@@ -1,4 +1,4 @@
-package com.test.learnState;
+package com.test.slot;
 
 import com.test.env.CustomStreamEnvironment;
 import com.test.filesource.FileSourceTuple3;
@@ -10,11 +10,10 @@ import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 
 import java.io.IOException;
 
-public class TestMain3 {
-
+public class TestSlot1 {
 	public static void main(String[] args) throws IOException {
 		final CustomStreamEnvironment env = new CustomStreamEnvironment();
-        testMethod1(env);
+		testMethod1(env);
 //		testMethod2(env);
 //		StreamGraph streamGraph = env.getStreamGraph();
 //		System.out.println(streamGraph.getStreamingPlanAsJSON());
