@@ -28,11 +28,11 @@ public class DataGenerator {
 //        testMethod2();
 //		testMethod1(time);
 //		testMethod1_1(time);
-		testMethod1_2(time);
+//		testMethod1_2(time);
 //        testMethod3(1537390812000L + 6000L);
 //        testMethod4(1537378980000L);
 //        testMethod5(time);
-//		testMethod6(time);
+		testMethod6(time);
 //		testMethod8(time);
 	}
 
@@ -225,7 +225,7 @@ public class DataGenerator {
 		Path logFile = Paths.get(URLUtil.baseUrl+ "source.txt");
 		long number = 1;
 		try (BufferedWriter writer = Files.newBufferedWriter(logFile, StandardCharsets.UTF_8, StandardOpenOption.APPEND)) {
-			for (int i = 0; i < 100; i++) {
+			for (int i = 0; i < 10000; i++) {
 				StringBuilder stringBuilder = new StringBuilder("(");
 				stringBuilder.append(getStringFromRandom(97,3));
 				stringBuilder.append(",").append(getRandom(1,1));

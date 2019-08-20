@@ -15,10 +15,9 @@
 #  See the License for the specific language governing permissions and
 # limitations under the License.
 ################################################################################
-
-
 env.java.opts.jobmanager: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005"
 env.java.opts.taskmanager: "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5006"
+
 
 #==============================================================================
 # Common
@@ -59,13 +58,14 @@ taskmanager.numberOfTaskSlots: 10
 parallelism.default: 1
 
 # The default file system scheme and authority.
-# 
+#
 # By default file paths without scheme are interpreted relative to the local
 # root file system 'file:///'. Use this to override the default and interpret
 # relative paths relative to a different file system,
 # for example 'hdfs://mynamenode:12345'
 #
-# fs.default-scheme
+# fs.default-scheme: file:///Users/apple/Desktop/state
+#fs.default-scheme: hdfs://localhost:9000
 
 #==============================================================================
 # High Availability
@@ -78,9 +78,9 @@ parallelism.default: 1
 # The path where metadata for master recovery is persisted. While ZooKeeper stores
 # the small ground truth for checkpoint and leader election, this location stores
 # the larger objects, like persisted dataflow graphs.
-# 
+#
 # Must be a durable file system that is accessible from all nodes
-# (like HDFS, S3, Ceph, nfs, ...) 
+# (like HDFS, S3, Ceph, nfs, ...)
 #
 # high-availability.storageDir: hdfs:///flink/ha/
 
@@ -107,40 +107,55 @@ parallelism.default: 1
 # Supported backends are 'jobmanager', 'filesystem', 'rocksdb', or the
 # <class-name-of-factory>.
 #
-# state.backend: filesystem
+#state.backend: rocksdb
 
 # Directory for checkpoints filesystem, when using any of the default bundled
 # state backends.
 #
-state.checkpoints.dir: hdfs://localhost:9000/flink-checkpoints
-state.savepoints.dir: hdfs://localhost:9000/flink-checkpoints
+# state.checkpoints.dir: hdfs://namenode-host:port/flink-checkpoints
+#state.savepoints.dir: hdfs://localhost:9000/flink-savepoints
+#state.checkpoints.dir: hdfs://localhost:9000/flink-checkpoints
+# state.savepoints.dir: file:///Users/apple/Desktop/state/flink-savepoints
+# state.checkpoints.dir: file:///Users/apple/Desktop/state/flink-checkpoints
 
 # Default target directory for savepoints, optional.
 #
 # state.savepoints.dir: hdfs://namenode-host:port/flink-checkpoints
 
 # Flag to enable/disable incremental checkpoints for backends that
-# support incremental checkpoints (like the RocksDB state backend). 
+# support incremental checkpoints (like the RocksDB state backend).
 #
-# state.backend.incremental: false
+state.backend.incremental: true
+
+io.tmp.dirs: /Users/apple/Desktop/state/flink_dir
+blob.storage.directory: /Users/apple/Desktop/state/blob
+jobstore.expiration-time: 60
 
 #==============================================================================
-# Web Frontend
+# Rest & web frontend
 #==============================================================================
 
-# The address under which the web-based runtime monitor listens.
+# The port to which the REST client connects to. If rest.bind-port has
+# not been specified, then the server will bind to this port as well.
 #
-#jobmanager.web.address: 0.0.0.0
+#rest.port: 8081
 
-# The port under which the web-based runtime monitor listens.
-# A value of -1 deactivates the web server.
+# The address to which the REST client will connect to
+#
+#rest.address: 0.0.0.0
 
-rest.port: 8081
+# Port range for the REST and web server to bind to.
+#
+#rest.bind-port: 8080-8090
+
+# The address that the REST & web server binds to
+#
+#rest.bind-address: 0.0.0.0
 
 # Flag to specify whether job submission is enabled from the web-based
 # runtime monitor. Uncomment to disable.
 
-#jobmanager.web.submit.enable: false
+#web.submit.enable: false
 
 #==============================================================================
 # Advanced
@@ -161,9 +176,7 @@ rest.port: 8081
 # multiple I/O threads against that directory. This is for example relevant for
 # high-throughput RAIDs.
 #
-io.tmp.dirs: /Users/apple/Desktop/state/io
-blob.storage.directory: /Users/apple/Desktop/state/blob
-jobstore.expiration-time: 60
+# io.tmp.dirs: /tmp
 
 # Specify whether TaskManager's managed memory should be allocated when starting
 # up (true) or when memory is requested.
@@ -185,13 +198,13 @@ jobstore.expiration-time: 60
 #
 # classloader.resolve-order: child-first
 
-# The amount of memory going to the network stack. These numbers usually need 
+# The amount of memory going to the network stack. These numbers usually need
 # no tuning. Adjusting them may be necessary in case of an "Insufficient number
-# of network buffers" error. The default min is 64MB, teh default max is 1GB.
-# 
+# of network buffers" error. The default min is 64MB, the default max is 1GB.
+#
 # taskmanager.network.memory.fraction: 0.1
-# taskmanager.network.memory.min: 67108864
-# taskmanager.network.memory.max: 1073741824
+# taskmanager.network.memory.min: 64mb
+# taskmanager.network.memory.max: 1gb
 
 #==============================================================================
 # Flink Cluster Security Configuration
@@ -236,16 +249,37 @@ jobstore.expiration-time: 60
 # Directory to upload completed jobs to. Add this directory to the list of
 # monitored directories of the HistoryServer as well (see below).
 #jobmanager.archive.fs.dir: hdfs:///completed-jobs/
+# jobmanager.archive.fs.dir: hdfs://192.168.223.107:9000/completed-jobs/
 
 # The address under which the web-based HistoryServer listens.
 #historyserver.web.address: 0.0.0.0
 
 # The port under which the web-based HistoryServer listens.
-#historyserver.web.port: 8082
+# historyserver.web.port: 8082
 
 # Comma separated list of directories to monitor for completed jobs.
-#historyserver.archive.fs.dir: hdfs:///completed-jobs/
+# historyserver.archive.fs.dir: hdfs://192.168.223.107:9000/completed-jobs/
 
 # Interval in milliseconds for refreshing the monitored directories.
 #historyserver.archive.fs.refresh-interval: 10000
+##################################
+# metric
+#################################
+# metrics.reporter.promgateway.class: org.apache.flink.metrics.prometheus.PrometheusPushGatewayReporter
+# metrics.reporter.promgateway.host: 172.31.24.36
+# metrics.reporter.promgateway.port: 9091
+# metrics.reporter.promgateway.jobName: myJob
+# metrics.reporter.promgateway.randomJobNameSuffix: true
+# metrics.reporter.promgateway.deleteOnShutdown: false
+## 书写方式 时间+空格+单位 默认单位秒 时间10
+# metrics.reporter.test.interval: 1 SECONDS
+# metrics.reporter.promgateway.interval: 5 SECONDS
+## 书写方式 时间+空格+单位 默认单位秒 时间10
+#metrics.reporter.<name>.interval: 1 SECONDS
+#metrics.scope.jm: <host>.jobmanager
+#metrics.scope.jm.job: <host>.jobmanager.<job_name>
+#metrics.scope.operator: <host>.taskmanager.<tm_id>.<job_name>.<operator_name>.<subtask_index>
+#metrics.scope.task: <host>.taskmanager.<tm_id>.<job_name>.<task_name>.<subtask_index>
+#metrics.scope.tm: <host>.taskmanager.<tm_id>
+#metrics.scope.tm.job: l<host>.taskmanager.<tm_id>.<job_name>
 

@@ -3,7 +3,12 @@ package com.test.learnState;
 import com.test.env.CustomStreamEnvironment;
 import com.test.filesource.FileSourceTuple3;
 import com.test.sink.CustomPrintTuple;
+import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.configuration.BlobServerOptions;
+import org.apache.flink.configuration.CheckpointingOptions;
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.configuration.CoreOptions;
 import org.apache.flink.contrib.streaming.state.RocksDBStateBackend;
 import org.apache.flink.core.fs.Path;
 import org.apache.flink.runtime.jobgraph.SavepointRestoreSettings;
@@ -47,16 +52,28 @@ public class TestMain2 {
 	 * {@link org.apache.flink.runtime.minicluster.MiniCluster}
 	 */
 	public static void main(String[] args) throws IOException {
-		final CustomStreamEnvironment env = new CustomStreamEnvironment();
+		Configuration configuration = new Configuration();
+//		configuration.setString(CoreOptions.DEFAULT_FILESYSTEM_SCHEME,"hdfs://localhost:9000");
+		configuration.setString(CheckpointingOptions.STATE_BACKEND,"rocksdb");
+//		configuration.setString(CheckpointingOptions.CHECKPOINTS_DIRECTORY,"hdfs://localhost:9000/flink-checkpoints");
+//		configuration.setString(CheckpointingOptions.SAVEPOINT_DIRECTORY,"hdfs://localhost:9000/flink-savepoints");
+		configuration.setString(CheckpointingOptions.CHECKPOINTS_DIRECTORY,"file:///Users/apple/Desktop/state/checkpointData");
+		configuration.setString(CheckpointingOptions.SAVEPOINT_DIRECTORY,"file:///Users/apple/Desktop/state/savepointData");
+		configuration.setBoolean(CheckpointingOptions.INCREMENTAL_CHECKPOINTS,true);
+//		configuration.setString(BlobServerOptions.STORAGE_DIRECTORY,"hdfs://localhost:9000/blob");
+//		configuration.setString(CoreOptions.TMP_DIRS,"hdfs://localhost:9000/io");
+		final CustomStreamEnvironment env = new CustomStreamEnvironment(configuration);
+//		System.out.println(System.getProperty(""));
+//		System.load("/Users/apple/Desktop/rockdata/librocksdbjni-osx.jnilib");
 //		env.setSavepointRestoreSettings(SavepointRestoreSettings.forPath(path));
 		env.setParallelism(4);
 		env.enableCheckpointing(6000);
-//        env.setRestartStrategy();
-		FsStateBackend fsStateBackend = new FsStateBackend(new Path("file:///Users/apple/Desktop/state/checkpointData").toUri(),new Path
-			("file:///Users/apple/Desktop/state/savepointData").toUri());
-		env.setStateBackend(new RocksDBStateBackend(fsStateBackend,true));
-//        testMethod1(env);
-        testMethod2(env);
+		env.getConfig().setRestartStrategy(RestartStrategies.fixedDelayRestart(4, 10000));
+//		FsStateBackend fsStateBackend = new FsStateBackend(new Path("file:///Users/apple/Desktop/state/checkpointData").toUri(),new Path
+//			("file:///Users/apple/Desktop/state/savepointData").toUri());
+//		env.setStateBackend(new RocksDBStateBackend(fsStateBackend,true));
+        testMethod1(env);
+//        testMethod2(env);
 		try {
 			env.execute();
 		} catch (Exception e) {

@@ -883,7 +883,7 @@ public class RocksDBStateBackend extends AbstractStateBackend implements Configu
 						LOG.debug("Attempting to create RocksDB native library folder {}", rocksLibFolder);
 						// noinspection ResultOfMethodCallIgnored
 						rocksLibFolder.mkdirs();
-
+//						System.load("/Users/apple/Desktop/rockdata/librocksdbjni-osx.jnilib");
 						// explicitly load the JNI dependency if it has not been loaded before
 						NativeLibraryLoader.getInstance().loadLibrary(rocksLibFolder.getAbsolutePath());
 

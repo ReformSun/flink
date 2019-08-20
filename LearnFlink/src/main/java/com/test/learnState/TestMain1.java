@@ -5,6 +5,7 @@ import com.test.sink.CustomPrintTuple;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.RichReduceFunction;
+import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.time.Time;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.tuple.Tuple2;
@@ -211,13 +212,14 @@ public class TestMain1 {
 	public static void main(String[] args) throws IOException {
 		final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 //		env.setParallelism(4);
-//        env.enableCheckpointing(6000);
-//        env.setRestartStrategy();
+		env.getConfig().disableSysoutLogging();
+		env.getConfig().setRestartStrategy(RestartStrategies.fixedDelayRestart(4, 10000));
+		env.enableCheckpointing(5000);
 //		FsStateBackend fsStateBackend = new FsStateBackend(new Path("file:///Users/apple/Desktop/state/checkpointData").toUri(),new Path
 //			("file:///Users/apple/Desktop/state/savepointData").toUri());
 //        env.setStateBackend(new RocksDBStateBackend(fsStateBackend));
-        testMethod1(env);
-//		testMethod2(env);
+//        testMethod1(env);
+		testMethod2(env);
 //		testMethod3(env);
 		try {
 			env.execute();
@@ -243,7 +245,7 @@ public class TestMain1 {
 			@Override
 			public void invoke(Tuple3<String, Integer, Long> value) throws Exception {
 				if (value != null){
-					throw new Exception("test");
+//					throw new Exception("test");
 				}else {
 					System.out.println(value.toString());
 				}

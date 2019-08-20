@@ -26,6 +26,7 @@ public class TestMain1 extends CommonTable{
 
 //		testMethod1();
 		testMethod2();
+		printStreamGraph();
 
 		try {
 			env.execute();

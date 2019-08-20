@@ -272,7 +272,7 @@ public class TaskManagerRunner implements FatalErrorHandler, AutoCloseableAsync 
 		// startup checks and logging
 		args = new String[2];
 		args[0] = "--configDir";
-		args[1] = "/Users/apple/Documents/GitHub/flink-1.8/LearnFlink/src/main/resources";
+		args[1] = "/Users/apple/Documents/GitHub/flink-1.8/LearnFlink/src/main/resources/config";
 		EnvironmentInformation.logEnvironmentInfo(LOG, "TaskManager", args);
 		SignalHandler.register(LOG);
 		JvmShutdownSafeguard.installAsShutdownHook(LOG);

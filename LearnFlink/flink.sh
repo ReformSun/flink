@@ -4,7 +4,7 @@
 basePatn="/Users/apple/Documents/GitHub/flink-1.8/flink-dist/target/flink-1.8-SNAPSHOT-bin/flink-1.8-SNAPSHOT/bin"
 jarPath="/Users/apple/Documents/GitHub/flink-1.8/LearnFlink/target"
 #savepointPath="/Users/apple/Desktop/state/savepointData/"
-savepointPath="hdfs://localhost:9000/flink-checkpoints"
+#savepointPath="hdfs://localhost:9000/flink-checkpoints"
 #target="$0"
 #iteration=0
 #while [ -L "$target" ]; do
