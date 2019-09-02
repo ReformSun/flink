@@ -32,26 +32,26 @@
       <scope>test</scope>
     </dependency>
 	   <!--添加log打印的引用-->
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-core</artifactId>
-      <version>0.9.28</version>
-      <type>jar</type>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-classic</artifactId>
-      <version>0.9.28</version>
-      <type>jar</type>
-    </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.slf4j</groupId>-->
+      <!--<artifactId>slf4j-api</artifactId>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>ch.qos.logback</groupId>-->
+      <!--<artifactId>logback-core</artifactId>-->
+      <!--<version>0.9.28</version>-->
+      <!--<type>jar</type>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>ch.qos.logback</groupId>-->
+      <!--<artifactId>logback-classic</artifactId>-->
+      <!--<version>0.9.28</version>-->
+      <!--<type>jar</type>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>log4j</groupId>-->
+      <!--<artifactId>log4j</artifactId>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -170,6 +170,15 @@
 		  <artifactId>hadoop-common</artifactId>
 		  <version>${hadoop.version}</version><!--$NO-MVN-MAN-VER$-->
 	  </dependency>
+
+
+	  <!--通过序列化工具avro 向文件系统中添加文件-->
+	  <dependency>
+		  <groupId>org.apache.flink</groupId>
+		  <artifactId>flink-connector-filesystem_${scala.binary.version}</artifactId>
+		  <version>${project.version}</version>
+	  </dependency>
+
 	  <!--添加hadoop的文件管理器end-->
 	  <dependency>
 		  <groupId>com.google.guava</groupId>

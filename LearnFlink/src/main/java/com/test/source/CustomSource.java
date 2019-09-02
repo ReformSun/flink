@@ -23,7 +23,7 @@ public class CustomSource<T> extends RichParallelSourceFunction<T> implements
 
 	@Override
 	public void run(SourceContext<T> ctx) throws Exception {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 100000; i++) {
 			T data = produceData.getData();
 			ctx.collect(data);
 			Thread.sleep(interval);
