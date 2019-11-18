@@ -225,7 +225,7 @@ public class DataGenerator {
 		Path logFile = Paths.get(URLUtil.baseUrl+ "source.txt");
 		long number = 1;
 		try (BufferedWriter writer = Files.newBufferedWriter(logFile, StandardCharsets.UTF_8, StandardOpenOption.APPEND)) {
-			for (int i = 0; i < 10000; i++) {
+			for (int i = 0; i < 1000; i++) {
 				StringBuilder stringBuilder = new StringBuilder("(");
 				stringBuilder.append(getStringFromRandom(97,3));
 				stringBuilder.append(",").append(getRandom(1,1));

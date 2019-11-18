@@ -1,6 +1,10 @@
 package com.test.sink;
 
 import com.test.util.URLUtil;
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.metrics.Counter;
+import org.apache.flink.metrics.MetricGroup;
+import org.apache.flink.runtime.metrics.groups.OperatorMetricGroup;
 import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 
 import java.io.BufferedWriter;
@@ -13,6 +17,7 @@ import java.nio.file.StandardOpenOption;
 
 public class CustomPrint extends RichSinkFunction<String> {
 	private String fileName = "test.txt";
+	private Counter counter;
 
 	public CustomPrint(String fileName) {
 		if (fileName != null)this.fileName = fileName;
@@ -31,5 +36,12 @@ public class CustomPrint extends RichSinkFunction<String> {
 			writer.newLine();
 			writer.write(s);
 		}
+	}
+
+	@Override
+	public void open(Configuration parameters) throws Exception {
+		OperatorMetricGroup metricGroup = (OperatorMetricGroup)getRuntimeContext().getMetricGroup();
+		counter = metricGroup.getIOMetricGroup().getNumRecordsInCounter();
+		super.open(parameters);
 	}
 }

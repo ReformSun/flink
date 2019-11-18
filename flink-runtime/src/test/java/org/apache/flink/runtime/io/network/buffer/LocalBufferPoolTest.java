@@ -91,8 +91,13 @@ public class LocalBufferPoolTest extends TestLogger {
 		executor.shutdownNow();
 	}
 
+	/**
+	 * 测试请求数量超过的可用的数量
+	 * @throws IOException
+	 */
 	@Test
 	public void testRequestMoreThanAvailable() throws IOException {
+		// 设置缓存池当前的尺寸
 		localBufferPool.setNumBuffers(numBuffers);
 
 		List<Buffer> requests = new ArrayList<Buffer>(numBuffers);
@@ -110,6 +115,7 @@ public class LocalBufferPoolTest extends TestLogger {
 			// One more...
 			Buffer buffer = localBufferPool.requestBuffer();
 			assertEquals(numBuffers, getNumRequestedFromMemorySegmentPool());
+			// 断言等于空
 			assertNull(buffer);
 		}
 
@@ -118,12 +124,17 @@ public class LocalBufferPoolTest extends TestLogger {
 		}
 	}
 
+	/**
+	 * 测试缓存池被销毁后，再请求缓存
+	 * @throws IOException
+	 */
 	@Test
 	public void testRequestAfterDestroy() throws IOException {
 		localBufferPool.lazyDestroy();
 
 		try {
 			localBufferPool.requestBuffer();
+			// 如果上面不报错 下面会提示一个错误信息
 			fail("Call should have failed with an IllegalStateException");
 		}
 		catch (IllegalStateException e) {
@@ -131,6 +142,10 @@ public class LocalBufferPoolTest extends TestLogger {
 		}
 	}
 
+	/**
+	 * 测试buffer销毁之后进行回收
+	 * @throws IOException
+	 */
 	@Test
 	public void testRecycleAfterDestroy() throws IOException {
 		localBufferPool.setNumBuffers(numBuffers);

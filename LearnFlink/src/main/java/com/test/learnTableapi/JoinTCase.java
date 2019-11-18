@@ -28,7 +28,8 @@ public class JoinTCase {
 //		testMethod1();
 //		testMethod2();
 //		testMethod3();
-		testMethod5();
+		testMethod4_1();
+//		testMethod5();
 	}
 
 	/**
@@ -73,6 +74,18 @@ public class JoinTCase {
 	public static void testMethod4(){
 //		String sql = "SELECT * FROM customer_tab right join order_tab ON customer_tab.c_id = order_tab.c_id";
 //		procTimePrint(sql);
+	}
+
+	/**
+	 * 全连接
+	 * full outer join
+	 * 产生A和B的并集。对于没有匹配的记录，则会以null做为值
+	 * 支持
+	 *
+	 */
+	public static void testMethod4_1(){
+		String sql = "SELECT * FROM customer_tab full outer join order_tab ON customer_tab.c_id = order_tab.c_id";
+		procTimePrint(sql);
 	}
 	/**
 	 * 交叉连接

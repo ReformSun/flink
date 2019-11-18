@@ -146,6 +146,8 @@ public class ResultPartition implements ResultPartitionWriter, BufferPoolOwner {
 		this.sendScheduleOrUpdateConsumersMessage = sendScheduleOrUpdateConsumersMessage;
 
 		// Create the subpartitions.
+		// 根据分区类型生成不同的子分区实例
+		// 分为批类型和管道类型
 		switch (partitionType) {
 			case BLOCKING:
 				for (int i = 0; i < subpartitions.length; i++) {
@@ -173,6 +175,7 @@ public class ResultPartition implements ResultPartitionWriter, BufferPoolOwner {
 	}
 
 	/**
+	 * 向结果分区中注册一个缓存池
 	 * Registers a buffer pool with this result partition.
 	 *
 	 * <p>There is one pool for each result partition, which is shared by all its sub partitions.
@@ -243,13 +246,14 @@ public class ResultPartition implements ResultPartitionWriter, BufferPoolOwner {
 		ResultSubpartition subpartition;
 		try {
 			checkInProduceState();
+			// 根据子分区索引获取子分区
 			subpartition = subpartitions[subpartitionIndex];
 		}
 		catch (Exception ex) {
 			bufferConsumer.close();
 			throw ex;
 		}
-
+		// 增加到子分区中
 		if (subpartition.add(bufferConsumer)) {
 			notifyPipelinedConsumers();
 		}
@@ -450,6 +454,7 @@ public class ResultPartition implements ResultPartitionWriter, BufferPoolOwner {
 	}
 
 	/**
+	 * 通知管道的消费者
 	 * Notifies pipelined consumers of this result partition once.
 	 */
 	private void notifyPipelinedConsumers() {

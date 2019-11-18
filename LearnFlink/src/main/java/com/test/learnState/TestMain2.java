@@ -55,10 +55,10 @@ public class TestMain2 {
 		Configuration configuration = new Configuration();
 //		configuration.setString(CoreOptions.DEFAULT_FILESYSTEM_SCHEME,"hdfs://localhost:9000");
 		configuration.setString(CheckpointingOptions.STATE_BACKEND,"rocksdb");
-//		configuration.setString(CheckpointingOptions.CHECKPOINTS_DIRECTORY,"hdfs://localhost:9000/flink-checkpoints");
-//		configuration.setString(CheckpointingOptions.SAVEPOINT_DIRECTORY,"hdfs://localhost:9000/flink-savepoints");
-		configuration.setString(CheckpointingOptions.CHECKPOINTS_DIRECTORY,"file:///Users/apple/Desktop/state/checkpointData");
-		configuration.setString(CheckpointingOptions.SAVEPOINT_DIRECTORY,"file:///Users/apple/Desktop/state/savepointData");
+		configuration.setString(CheckpointingOptions.CHECKPOINTS_DIRECTORY,"hdfs://192.168.223.107:9000/flink-checkpoints");
+		configuration.setString(CheckpointingOptions.SAVEPOINT_DIRECTORY,"hdfs://192.168.223.107:9000/flink-savepoints");
+//		configuration.setString(CheckpointingOptions.CHECKPOINTS_DIRECTORY,"file:///Users/apple/Desktop/state/checkpointData");
+//		configuration.setString(CheckpointingOptions.SAVEPOINT_DIRECTORY,"file:///Users/apple/Desktop/state/savepointData");
 		configuration.setBoolean(CheckpointingOptions.INCREMENTAL_CHECKPOINTS,true);
 //		configuration.setString(BlobServerOptions.STORAGE_DIRECTORY,"hdfs://localhost:9000/blob");
 //		configuration.setString(CoreOptions.TMP_DIRS,"hdfs://localhost:9000/io");

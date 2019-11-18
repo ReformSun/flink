@@ -65,6 +65,7 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 	private final ConnectionManager connectionManager;
 
 	/**
+	 * 这个接受缓冲区，接受缓冲区是通过网络io线程进行排队和队列会被消费通过接受缓冲区
 	 * The received buffers. Received buffers are enqueued by the network I/O thread and the queue
 	 * is consumed by the receiving task thread.
 	 */
@@ -293,6 +294,7 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 	}
 
 	/**
+	 * 直接回收独占缓冲区到输入通道中并且它能够触发返回额外的流动缓冲区和通知增加信用到生产者
 	 * Exclusive buffer is recycled to this input channel directly and it may trigger return extra
 	 * floating buffer and notify increased credit to the producer.
 	 *
@@ -448,7 +450,9 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 	}
 
 	/**
+	 * 直接从输入通道请求缓冲区接受网络数据，直接请求的是输入通道的独占缓冲区
 	 * Requests buffer from input channel directly for receiving network data.
+	 * 它总能够返回一个有用的缓冲区在流控模式下除非这个通道已经被释放
 	 * It should always return an available buffer in credit-based mode unless
 	 * the channel has been released.
 	 *
@@ -462,6 +466,8 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 	}
 
 	/**
+	 * 接受这个积压数从返回的生产者的缓冲区，如果有用的缓冲区数量小于积压数和初始化信用数，它将请求流动缓冲区从缓冲池中，
+	 * 然后通知信用到生产者
 	 * Receives the backlog from the producer's buffer response. If the number of available
 	 * buffers is less than backlog + initialCredit, it will request floating buffers from the buffer
 	 * pool, and then notify unannounced credits to the producer.
@@ -477,7 +483,7 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 			if (isReleased.get()) {
 				return;
 			}
-
+			// 初始化独占缓冲的数量加上积压数等于需要的缓冲大小
 			numRequiredBuffers = backlog + initialCredit;
 			while (bufferQueue.getAvailableBufferSize() < numRequiredBuffers && !isWaitingForFloatingBuffers) {
 				Buffer buffer = inputGate.getBufferPool().requestBuffer();
@@ -497,6 +503,13 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 		}
 	}
 
+	/**
+	 * 接受生产者生产的数据
+	 * @param buffer  存储生产者生产的数据
+	 * @param sequenceNumber
+	 * @param backlog  生产区挤压的数据所需要的缓存数量
+	 * @throws IOException
+	 */
 	public void onBuffer(Buffer buffer, int sequenceNumber, int backlog) throws IOException {
 		boolean recycleBuffer = true;
 
@@ -517,6 +530,7 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 				}
 
 				wasEmpty = receivedBuffers.isEmpty();
+				// 增加到接受缓存中
 				receivedBuffers.add(buffer);
 				recycleBuffer = false;
 			}
@@ -528,6 +542,7 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 			}
 
 			if (backlog >= 0) {
+				// 如果大于0数据生产区数据有积压
 				onSenderBacklog(backlog);
 			}
 		} finally {
@@ -626,6 +641,7 @@ public class RemoteInputChannel extends InputChannel implements BufferRecycler, 
 		}
 
 		/**
+		 * 首先消费浮动缓冲区以便合理的充分的利用的浮动缓冲区
 		 * Takes the floating buffer first in order to make full use of floating
 		 * buffers reasonably.
 		 *

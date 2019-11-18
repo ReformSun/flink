@@ -2,17 +2,25 @@ package com.test.filesystem;
 
 import org.apache.avro.Schema;
 import org.apache.avro.file.DataFileConstants;
+import org.apache.avro.reflect.ReflectData;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.core.fs.Path;
+import org.apache.flink.formats.parquet.avro.ParquetAvroWriters;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
+import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink;
 import org.apache.flink.streaming.connectors.fs.AvroKeyValueSinkWriter;
 import org.apache.flink.streaming.connectors.fs.bucketing.BucketingSink;
 import org.apache.flink.streaming.connectors.fs.bucketing.DateTimeBucketer;
 import org.apache.flink.types.Row;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class CommonFileSink {
+	private static String basePath = "file:///Users/apple/Documents/GitHub/flink-1.8/LearnFlink/src/main/resources/";
 	public static SinkFunction<Row> createFileSink(){
 		BucketingSink bucketingSink = new BucketingSink<Row>("./LearnFlink/src/main/resources");
 		Map<String, String> properties = new HashMap<>();
@@ -43,7 +51,7 @@ public class CommonFileSink {
 	 * @return
 	 */
 	public static SinkFunction<Tuple2<Long, Long>> createFileSink1(){
-		BucketingSink<Tuple2<Long, Long>> sink = new BucketingSink<Tuple2<Long, Long>>("file:///Users/apple/Documents/GitHub/flink-1.8/LearnFlink/src/main/resources/avro");
+		BucketingSink<Tuple2<Long, Long>> sink = new BucketingSink<Tuple2<Long, Long>>(basePath + "avro");
 		sink.setBucketer(new DateTimeBucketer<Tuple2<Long, Long>>("yyyy-MM-dd/HH/mm/"));
 		sink.setPendingSuffix(".avro");
 		Map<String, String> properties = new HashMap<>();
@@ -75,5 +83,27 @@ public class CommonFileSink {
 		// 设置桶滚动时间间隔 默认为无限大
 		sink.setBatchRolloverInterval(10000);
 		return sink;
+	}
+
+	public static SinkFunction<TestParquet1.Datum> createParquetFileSink(){
+		File file = new File( "./LearnFlink/src/main/resources/parquet");
+		return StreamingFileSink.forBulkFormat(
+			Path.fromLocalFile(file),
+			ParquetAvroWriters.forReflectRecord(TestParquet1.Datum.class)).withBucketCheckInterval(1000)
+			.build();
+	}
+	public static SinkFunction<TestParquet1.Datum> createParquetFileSinkForRow(){
+		File file = new File( "./LearnFlink/src/main/resources/parquet");
+//		return StreamingFileSink.forRowFormat(
+//			Path.fromLocalFile(file),
+//			ParquetAvroWriters.forReflectRecord(TestParquet1.Datum.class)).withBucketCheckInterval(1000)
+//			.build();
+		return null;
+	}
+
+
+	public static void main(String[] args) {
+		final String schemaString = ReflectData.get().getSchema(ArrayList.class).toString();
+		System.out.println(schemaString);
 	}
 }

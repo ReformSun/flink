@@ -29,6 +29,8 @@ public class KafkaUtil {
 		propertie.setProperty("bootstrap.servers", "172.31.35.58:9092");
 //		propertie.setProperty("bootstrap.servers", "172.31.24.36:9092");
 		propertie.setProperty("group.id", "serverCollector");
+//		propertie.setProperty("flink.disable-metrics", "true");
+
 		FlinkKafkaConsumer010 flinkKafkaConsumer010 = new FlinkKafkaConsumer010(
 			propertie.getProperty("input-topic"),
 			new StreamModelSchema(),

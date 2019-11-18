@@ -92,8 +92,11 @@ public class SpanningRecordSerializer<T extends IOReadableWritable> implements R
 	 */
 	@Override
 	public SerializationResult copyToBufferBuilder(BufferBuilder targetBuffer) {
+		// 首先拼接数据的长度信息
 		targetBuffer.append(lengthBuffer);
+		// 然后拼接数据信息
 		targetBuffer.append(dataBuffer);
+		// 提交数据
 		targetBuffer.commit();
 
 		return getSerializationResult(targetBuffer);

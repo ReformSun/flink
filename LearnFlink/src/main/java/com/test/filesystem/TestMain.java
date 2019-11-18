@@ -25,7 +25,8 @@ public class TestMain extends CommonWindow{
 //		FsStateBackend fsStateBackend = new FsStateBackend(new Path("file:///Users/apple/Desktop/state/checkpointData").toUri(),new Path
 //			("file:///Users/apple/Desktop/state/savepointData").toUri());
 //        env.setStateBackend(new RocksDBStateBackend(fsStateBackend));
-        testMethod1();
+//        testMethod1();
+        testMethod2();
 		try {
 			env.execute();
 		} catch (Exception e) {

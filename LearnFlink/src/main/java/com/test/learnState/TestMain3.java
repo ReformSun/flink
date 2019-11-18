@@ -7,6 +7,7 @@ import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
+import org.apache.flink.streaming.api.graph.StreamGraph;
 
 import java.io.IOException;
 
@@ -16,8 +17,8 @@ public class TestMain3 {
 		final CustomStreamEnvironment env = new CustomStreamEnvironment();
         testMethod1(env);
 //		testMethod2(env);
-//		StreamGraph streamGraph = env.getStreamGraph();
-//		System.out.println(streamGraph.getStreamingPlanAsJSON());
+		StreamGraph streamGraph = env.getStreamGraph();
+		System.out.println(streamGraph.getStreamingPlanAsJSON());
 		try {
 			env.execute();
 		} catch (Exception e) {

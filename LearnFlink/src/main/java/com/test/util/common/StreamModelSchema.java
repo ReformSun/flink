@@ -31,8 +31,7 @@ import java.io.IOException;
 public class StreamModelSchema implements DeserializationSchema<String>, SerializationSchema<String> {
 	@Override
 	public String deserialize(byte[] message) throws IOException {
-		return null;
-//		return new String(message);
+		return new String(message);
 	}
 
 	@Override

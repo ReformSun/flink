@@ -73,7 +73,8 @@ public class PrometheusPushGatewayReporter extends AbstractPrometheusReporter im
 	@Override
 	public void report() {
 		try {
-			pushGateway.push(CollectorRegistry.defaultRegistry, jobName);
+//			pushGateway.push(CollectorRegistry.defaultRegistry, jobName);
+			FileMetricReporter.report(CollectorRegistry.defaultRegistry,jobName);
 		} catch (Exception e) {
 			log.warn("Failed to push metrics to PushGateway with jobName {}.", jobName, e);
 		}

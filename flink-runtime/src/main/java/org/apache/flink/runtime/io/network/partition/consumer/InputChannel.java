@@ -139,6 +139,7 @@ public abstract class InputChannel {
 	abstract void requestSubpartition(int subpartitionIndex) throws IOException, InterruptedException;
 
 	/**
+	 * 返回下一个队列从已经被消费的子分区中
 	 * Returns the next buffer from the consumed subpartition or {@code Optional.empty()} if there is no data to return.
 	 */
 	abstract Optional<BufferAndAvailability> getNextBuffer() throws IOException, InterruptedException;

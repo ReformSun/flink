@@ -36,9 +36,9 @@ public class FileMetricReporter extends AbstractReporter implements Scheduled {
 	@Override
 	public void report() {
 		reportCounter();
-//		reportGauges();
-//		reportMeters();
-//		reportHistograms();
+		reportGauges();
+		reportMeters();
+		reportHistograms();
 	}
 
 	/**

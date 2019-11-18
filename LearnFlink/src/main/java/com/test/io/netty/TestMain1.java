@@ -1,5 +1,16 @@
 package com.test.io.netty;
 
+import com.test.env.CustomStreamEnvironment;
+import com.test.sink.CustomPrint;
+import com.test.util.DataUtil;
+import com.test.util.StreamExecutionEnvUtil;
+import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.streaming.api.datastream.DataStreamSource;
+import org.apache.flink.streaming.api.graph.StreamGraph;
+
+import java.util.List;
+
 /**
  *
  *  * <pre>{@code
@@ -55,4 +66,41 @@ package com.test.io.netty;
  *
  */
 public class TestMain1 {
+	private static final CustomStreamEnvironment env;
+	private static int index = 9;
+	static {
+		env = StreamExecutionEnvUtil.getCustomStreamEnvironment(null);
+	}
+	public static void main(String[] args) {
+		try{
+			testMethod1();
+			StreamGraph streamGraph = env.getStreamGraph();
+			System.out.println(streamGraph.getStreamingPlanAsJSON());
+		}catch (Exception e){
+			e.printStackTrace();
+		}
+		try {
+			env.execute("job_name_test" + index);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void testMethod1(){
+		List<Tuple3<String,Integer,Long>> list = DataUtil.getTuple3_Int_timetamp(5,6,18);
+		DataStreamSource<Tuple3<String,Integer,Long>> dataStreamSource = env.fromCollection(list);
+		dataStreamSource.map(new MapFunction<Tuple3<String,Integer,Long>, String>() {
+			@Override
+			public String map(Tuple3<String, Integer, Long> value) throws Exception {
+				return value.toString();
+			}
+		}).name("map1").addSink(new CustomPrint(null)).name("sink1").setParallelism(2);
+
+		dataStreamSource.map(new MapFunction<Tuple3<String,Integer,Long>, String>() {
+			@Override
+			public String map(Tuple3<String, Integer, Long> value) throws Exception {
+				return value.toString();
+			}
+		}).name("map2").addSink(new CustomPrint(null)).name("sink2").setParallelism(1);
+	}
 }

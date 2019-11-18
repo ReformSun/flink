@@ -122,6 +122,13 @@ public class ExecutionJobVertexTest {
 
 	//------------------------------------------------------------------------------------------------------
 
+	/**
+	 * 创建ExecutionJobVertex
+	 * @param parallelism
+	 * @param preconfiguredMaxParallelism
+	 * @return
+	 * @throws JobException
+	 */
 	private static ExecutionJobVertex createExecutionJobVertex(
 			int parallelism,
 			int preconfiguredMaxParallelism) throws JobException {

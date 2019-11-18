@@ -1,0 +1,510 @@
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0
+
+
+-- Meters ---------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsInPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemotePerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOutPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocalPerSecond: 0.0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsInPerSecond: 0.0

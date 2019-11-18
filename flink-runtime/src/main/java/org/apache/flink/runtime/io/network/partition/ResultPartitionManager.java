@@ -63,6 +63,14 @@ public class ResultPartitionManager implements ResultPartitionProvider {
 		}
 	}
 
+	/**
+	 * 创建子分区视图
+	 * @param partitionId  结果分区id
+	 * @param subpartitionIndex  子分区索引
+	 * @param availabilityListener 缓冲区可用性监听者
+	 * @return
+	 * @throws IOException
+	 */
 	@Override
 	public ResultSubpartitionView createSubpartitionView(
 			ResultPartitionID partitionId,

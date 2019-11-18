@@ -141,6 +141,10 @@ class PipelinedSubpartition extends ResultSubpartition {
 		}
 	}
 
+	/**
+	 * 获取生产者生产的数据发送到下一个节点
+	 * @return
+	 */
 	@Nullable
 	BufferAndBacklog pollBuffer() {
 		synchronized (buffers) {

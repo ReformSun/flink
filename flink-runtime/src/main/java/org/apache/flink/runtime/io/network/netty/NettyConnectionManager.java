@@ -45,6 +45,7 @@ public class NettyConnectionManager implements ConnectionManager {
 
 	@Override
 	public void start(ResultPartitionProvider partitionProvider, TaskEventDispatcher taskEventDispatcher) throws IOException {
+		// 生成netty协议
 		NettyProtocol partitionRequestProtocol = new NettyProtocol(
 			partitionProvider,
 			taskEventDispatcher,

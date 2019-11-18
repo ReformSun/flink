@@ -24,6 +24,8 @@ import java.util.List;
  * ONE ROW PER MATCH WITH TIMEOUT ROWS 除了匹配成功的时候产生输出外，超时的时候也会产生输出。超时时间由PATTERN语句中的WITHIN语句定义。
  * ALL ROWS PER MATCH 对于每一次成功的匹配，对应于每一个输入事件，都会产生一个输出事件。
  * ALL ROWS PER MATCH WITH TIMEOUT ROWS
+ *
+ * https://help.aliyun.com/document_detail/73845.html?spm=a2c4g.11186623.6.652.39e03315wHKZry
  */
 public class CEPSqlTCase {
 	public static List<Row> table1 = Arrays.asList(

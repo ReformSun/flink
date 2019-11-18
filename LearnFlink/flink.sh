@@ -26,7 +26,7 @@ ${basePatn}/flink run ${jarPath}/${1}
 # 运行flink job 指定主类
 #${basePatn}/flink run -c org.apache.flink.examples.java.wordcount.WordCount ${jarPath}/${1}
 # 运行关闭的任务 从指定的savepointPath
-#${basePatn}/flink run -s /Users/apple/Desktop/state/savepointData/savepoint-cb0893-0861517585ba ${jarPath}/${1}
+#${basePatn}/flink run -s /root/flink-savepoints/savepoint-123777-91f836c80b81 ${jarPath}/${1}
 
 
 # 指定jobmanager

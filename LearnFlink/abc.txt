@@ -1,0 +1,4 @@
+123777e6bfc90840f6fc9795b9ba2bc3
+
+Cancelling job 123777e6bfc90840f6fc9795b9ba2bc3 with savepoint to /root/flink-savepoints/.
+Cancelled job 123777e6bfc90840f6fc9795b9ba2bc3. Savepoint stored in file:/root/flink-savepoints/savepoint-123777-91f836c80b81.

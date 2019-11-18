@@ -171,11 +171,14 @@ public class RecordWriter<T extends IOReadableWritable> {
 	private boolean copyFromSerializerToTargetChannel(int targetChannel) throws IOException, InterruptedException {
 		// We should reset the initial position of the intermediate serialization buffer before
 		// copying, so the serialization results can be copied to multiple target buffers.
+		// 我将在拷贝之前重设中间序列化缓冲区的初始化位置
 		serializer.reset();
 
 		boolean pruneTriggered = false;
+		// 的指定通道的缓存区构建类
 		BufferBuilder bufferBuilder = getBufferBuilder(targetChannel);
 		SerializationResult result = serializer.copyToBufferBuilder(bufferBuilder);
+		// 判断缓冲区是否慢
 		while (result.isFullBuffer()) {
 			numBytesOut.inc(bufferBuilder.finish());
 			numBuffersOut.inc();
@@ -251,6 +254,7 @@ public class RecordWriter<T extends IOReadableWritable> {
 	 * request a new one for this target channel.
 	 */
 	private BufferBuilder getBufferBuilder(int targetChannel) throws IOException, InterruptedException {
+		// 判断缓存区构造器是否已经存在上次还没有被填满的缓存区构造器，负责我们需要请求一个新的
 		if (bufferBuilders[targetChannel].isPresent()) {
 			return bufferBuilders[targetChannel].get();
 		} else {
@@ -260,9 +264,10 @@ public class RecordWriter<T extends IOReadableWritable> {
 
 	private BufferBuilder requestNewBufferBuilder(int targetChannel) throws IOException, InterruptedException {
 		checkState(!bufferBuilders[targetChannel].isPresent() || bufferBuilders[targetChannel].get().isFinished());
-
+		// 向目标分区请求缓存生产者请求缓存区构造器
 		BufferBuilder bufferBuilder = targetPartition.getBufferProvider().requestBufferBuilderBlocking();
 		bufferBuilders[targetChannel] = Optional.of(bufferBuilder);
+		// 把获取的缓存构造器添加到目标分区
 		targetPartition.addBufferConsumer(bufferBuilder.createBufferConsumer(), targetChannel);
 		return bufferBuilder;
 	}

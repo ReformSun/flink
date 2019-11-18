@@ -1,856 +1,1368 @@
 
 
 -- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 190
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 10
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 380
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 20
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 570
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 30
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 760
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 40
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.39268079d3dc6790046e283e72b433ad.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 1
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 1
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 1
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 1
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 1
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 1
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 19
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 1
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 11
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 11
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 11
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 11
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 11
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 11
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 209
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 11
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 21
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 21
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 21
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 21
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 21
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 21
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 399
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 21
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 31
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 31
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 31
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 31
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 31
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 31
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 589
-localhost.taskmanager.6b00572603582f1ca8506b484862c3a1.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 31
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 8
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 8
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 8
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 8
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 152
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 8
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 8
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 8
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 18
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 18
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 18
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 18
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 342
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 18
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 18
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 18
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 28
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 28
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 28
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 28
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 532
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 28
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 28
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 28
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 38
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 38
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 38
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 38
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 722
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 38
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 38
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 38
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 48
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 48
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 48
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 48
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 912
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 48
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 48
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 48
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 58
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 58
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 58
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 58
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 1102
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 58
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 58
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 58
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 67
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 67
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 67
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 68
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 1273
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 67
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 68
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 67
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 78
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 78
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 78
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 78
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 1482
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 78
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 78
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 78
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 87
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 87
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 87
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 88
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 1653
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 87
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 88
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 87
-
-
--- Counters -------------------------------------------------------------------
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsOut: 97
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInLocal: 97
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsIn: 97
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 98
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInLocal: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInLocal: 1843
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation.0.numRecordsIn: 97
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBuffersOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsOut: 98
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBytesOut: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numRecordsIn: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Source: Custom Source.0.numBuffersInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numBytesInRemote: 0
-localhost.taskmanager.0f70c3c881a02c2ea89261e76f342de3.Flink Streaming Job.Keyed Aggregation -> Sink: Unnamed.0.numRecordsIn: 97
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
-
-
--- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0
+
+
+-- Counters -------------------------------------------------------------------
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInRemote: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersInLocal: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsIn: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.operatorName.1.numRecordsOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBuffersOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesOut: 0
+localhost.taskmanager.taskManagerId.jobName.taskName.1.numBytesInRemote: 0

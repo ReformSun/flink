@@ -1,6 +1,7 @@
 package com.test.util;
 
 import com.google.gson.Gson;
+import com.test.env.CustomStreamEnvironment;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.configuration.GlobalConfiguration;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
@@ -19,6 +20,16 @@ public class StreamExecutionEnvUtil {
 			env = StreamExecutionEnvironment.createLocalEnvironment(1,getConfiguration());
 		}else {
 			env = StreamExecutionEnvironment.createLocalEnvironment(1,conf);
+		}
+		return env;
+	}
+
+	public static CustomStreamEnvironment getCustomStreamEnvironment(Configuration conf){
+		CustomStreamEnvironment env;
+		if (conf == null){
+			env = new CustomStreamEnvironment(getConfiguration());
+		}else {
+			env = new CustomStreamEnvironment(conf);
 		}
 		return env;
 	}

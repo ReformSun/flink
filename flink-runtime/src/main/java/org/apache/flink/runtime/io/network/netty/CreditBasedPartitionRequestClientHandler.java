@@ -241,14 +241,20 @@ class CreditBasedPartitionRequestClientHandler extends ChannelInboundHandlerAdap
 		}
 	}
 
+	/**
+	 * 反序列化信息
+	 * @param msg
+	 * @throws Throwable
+	 */
 	private void decodeMsg(Object msg) throws Throwable {
 		final Class<?> msgClazz = msg.getClass();
 
 		// ---- Buffer --------------------------------------------------------
 		if (msgClazz == NettyMessage.BufferResponse.class) {
 			NettyMessage.BufferResponse bufferOrEvent = (NettyMessage.BufferResponse) msg;
-
+			// 通过接受id得到数据关联的输入通道
 			RemoteInputChannel inputChannel = inputChannels.get(bufferOrEvent.receiverId);
+			// 如果没有通道信息，关闭缓冲区，关闭这个连接
 			if (inputChannel == null) {
 				bufferOrEvent.releaseBuffer();
 
@@ -256,7 +262,7 @@ class CreditBasedPartitionRequestClientHandler extends ChannelInboundHandlerAdap
 
 				return;
 			}
-
+			// 如果有继续反序列化缓存池或者事件
 			decodeBufferOrEvent(inputChannel, bufferOrEvent);
 
 		} else if (msgClazz == NettyMessage.ErrorResponse.class) {
@@ -293,6 +299,7 @@ class CreditBasedPartitionRequestClientHandler extends ChannelInboundHandlerAdap
 		try {
 			ByteBuf nettyBuffer = bufferOrEvent.getNettyBuffer();
 			final int receivedSize = nettyBuffer.readableBytes();
+			// 判断返回的信息是否是缓存池
 			if (bufferOrEvent.isBuffer()) {
 				// ---- Buffer ------------------------------------------------
 
@@ -302,11 +309,12 @@ class CreditBasedPartitionRequestClientHandler extends ChannelInboundHandlerAdap
 					inputChannel.onEmptyBuffer(bufferOrEvent.sequenceNumber, bufferOrEvent.backlog);
 					return;
 				}
-
+				// 向通道请求缓存
 				Buffer buffer = inputChannel.requestBuffer();
 				if (buffer != null) {
+					// 把通道内数据读取到请求的缓存中
 					nettyBuffer.readBytes(buffer.asByteBuf(), receivedSize);
-
+					// 把缓存扔给通道
 					inputChannel.onBuffer(buffer, bufferOrEvent.sequenceNumber, bufferOrEvent.backlog);
 				} else if (inputChannel.isReleased()) {
 					cancelRequestFor(bufferOrEvent.receiverId);

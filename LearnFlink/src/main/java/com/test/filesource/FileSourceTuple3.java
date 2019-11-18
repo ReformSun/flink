@@ -5,6 +5,10 @@ import com.google.common.base.Splitter;
 import com.test.util.URLUtil;
 import org.apache.flink.api.common.state.*;
 import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.configuration.Configuration;
+import org.apache.flink.metrics.Counter;
+import org.apache.flink.metrics.MetricGroup;
+import org.apache.flink.runtime.metrics.groups.OperatorMetricGroup;
 import org.apache.flink.runtime.state.DefaultOperatorStateBackend;
 import org.apache.flink.runtime.state.FunctionInitializationContext;
 import org.apache.flink.runtime.state.FunctionSnapshotContext;
@@ -21,6 +25,7 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class FileSourceTuple3 extends RichParallelSourceFunction<Tuple3<String,Integer,Long>> implements CheckpointedFunction {
 	private String path;
@@ -30,6 +35,7 @@ public class FileSourceTuple3 extends RichParallelSourceFunction<Tuple3<String,I
 	private Integer line;
 	private int readLine = 0;
 	private ListState<Integer> listState;
+	private Counter counter;
 	public FileSourceTuple3() {
 		path = URLUtil.baseUrl + "source.txt";
 	}
@@ -61,6 +67,7 @@ public class FileSourceTuple3 extends RichParallelSourceFunction<Tuple3<String,I
 					tuple3.f1 = Integer.valueOf(list2.get(1));
 					tuple3.f2 = Long.valueOf(list2.get(2));
 					ctx.collect(tuple3);
+					counter.inc();
 				}
 				readLine++;
 				if (interval > 0){
@@ -88,6 +95,14 @@ public class FileSourceTuple3 extends RichParallelSourceFunction<Tuple3<String,I
 	public void snapshotState(FunctionSnapshotContext context) throws Exception {
 		listState.update(Arrays.asList(readLine));
 	}
+
+	@Override
+	public void open(Configuration parameters) throws Exception {
+		OperatorMetricGroup metricGroup = (OperatorMetricGroup)getRuntimeContext().getMetricGroup();
+		counter = metricGroup.getIOMetricGroup().getNumRecordsInCounter();
+		super.open(parameters);
+	}
+
 	@Override
 	public void cancel() {
 

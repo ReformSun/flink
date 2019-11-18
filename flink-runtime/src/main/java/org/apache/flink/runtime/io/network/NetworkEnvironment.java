@@ -231,17 +231,22 @@ public class NetworkEnvironment {
 		BufferPool bufferPool = null;
 
 		try {
+			// 获取结果分区分区类型，根据分区类型计算出最大内存分段数
+			// networkBuffersPerChannel 默认值是2
+			// extraNetworkBuffersPerGate 默认值是8
+			// 判断是否是有界的
 			int maxNumberOfMemorySegments = partition.getPartitionType().isBounded() ?
 				partition.getNumberOfSubpartitions() * networkBuffersPerChannel +
 					extraNetworkBuffersPerGate : Integer.MAX_VALUE;
 			// If the partition type is back pressure-free, we register with the buffer pool for
 			// callbacks to release memory.
+			// 传入参数为：需要的缓存数是结果分区对应的子分区数，
 			bufferPool = networkBufferPool.createBufferPool(partition.getNumberOfSubpartitions(),
 				maxNumberOfMemorySegments,
 				partition.getPartitionType().hasBackPressure() ? Optional.empty() : Optional.of(partition));
-
+			// 注册生成的缓存池
 			partition.registerBufferPool(bufferPool);
-
+			// 把分区注册到结果分区管理者中
 			resultPartitionManager.registerResultPartition(partition);
 		} catch (Throwable t) {
 			if (bufferPool != null) {
@@ -258,23 +263,33 @@ public class NetworkEnvironment {
 		taskEventDispatcher.registerPartition(partition.getPartitionId());
 	}
 
+	/**
+	 * 如果是流控模式，为每个gate中的通道分配独有缓冲区和浮动缓冲区
+	 * 如果不是，共用gate的缓存池。
+	 * @param gate
+	 * @throws IOException
+	 */
 	@VisibleForTesting
 	public void setupInputGate(SingleInputGate gate) throws IOException {
 		BufferPool bufferPool = null;
 		int maxNumberOfMemorySegments;
 		try {
+			// 判断是否启动流控模式
 			if (enableCreditBased) {
+				// 根据消费模式是否是有界的配置流动缓冲区大小，如果是有界的就和每个通道的独有缓冲区一样多
 				maxNumberOfMemorySegments = gate.getConsumedPartitionType().isBounded() ?
 					extraNetworkBuffersPerGate : Integer.MAX_VALUE;
 
 				// assign exclusive buffers to input channels directly and use the rest for floating buffers
+				// 通过网络缓存池，和设置的每个通道缓存池数量为每个输入入口分配独有缓存
 				gate.assignExclusiveSegments(networkBufferPool, networkBuffersPerChannel);
+				// 创建流动缓存池
 				bufferPool = networkBufferPool.createBufferPool(0, maxNumberOfMemorySegments);
 			} else {
 				maxNumberOfMemorySegments = gate.getConsumedPartitionType().isBounded() ?
 					gate.getNumberOfInputChannels() * networkBuffersPerChannel +
 						extraNetworkBuffersPerGate : Integer.MAX_VALUE;
-
+				// 通过网络缓冲池创建gate的缓冲池
 				bufferPool = networkBufferPool.createBufferPool(gate.getNumberOfInputChannels(),
 					maxNumberOfMemorySegments);
 			}
